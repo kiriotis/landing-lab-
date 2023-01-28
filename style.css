@@ -1,0 +1,43 @@
+li {
+	list-style-type: none; /* Убираем маркеры */
+}
+ul {
+	padding-left: 0; /* Сдвигаем список влево */
+}
+header {
+	background: rgb(2, 0, 36);
+	background: linear-gradient(
+		270deg,
+		rgba(2, 0, 36, 1) 0%,
+		rgba(9, 9, 121, 1) 35%,
+		rgba(0, 212, 255, 1) 100%
+	);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	color: white;
+}
+.logo {
+	line-height: 0;
+}
+h1 {
+	margin: 0rem;
+	font-size: 3rem;
+}
+nav {
+	display: flex;
+	gap: 2rem;
+	font-size: 1.5rem;
+	align-items: center;
+}
+.nav_list {
+	gap: 1rem;
+	display: flex;
+}
+.header_button {
+	padding: 12px 40px;
+	border: none;
+	border-radius: 10px;
+	background: #e0e0e0;
+	box-shadow: -5px -5px 10px #bebebe, 5px 5px 10px #ffffff;
+}
