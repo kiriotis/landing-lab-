@@ -1,0 +1,15 @@
+.hero_button {
+	padding: 12px 40px;
+	border: none;
+	border-radius: 10px;
+	background: #e0e0e0;
+	box-shadow: -5px -5px 10px #bebebe, 5px 5px 10px #ffffff;
+	margin-top: 1rem;
+}
+.header_button {
+	padding: 12px 40px;
+	border: none;
+	border-radius: 10px;
+	background: #e0e0e0;
+	box-shadow: -5px -5px 10px #bebebe, 5px 5px 10px #ffffff;
+}

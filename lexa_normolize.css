@@ -1,0 +1,55 @@
+
+
+a {
+	text-decoration: none;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+button {
+	cursor: pointer;
+	
+}
+
+/* img,
+svg {
+	max-width: 100%;
+	height: auto;
+} */
+
+.hidden {
+	display: none;
+}
+
+.container {
+	max-width: 1440px;
+	padding-left: 120px;
+	padding-right: 120px;
+	margin: 0 auto;
+}
+
+.grid {
+	display: grid;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+li,
+a,
+.nav__link {
+	padding: 0;
+	margin: 0;
+	color: var(--text-color);
+}
+
+
+
+.even {
+	order: 1;
+}
